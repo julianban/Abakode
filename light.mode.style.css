@@ -1,0 +1,51 @@
+body{
+    background-color: #FBFBFE;
+    color: #15141A;
+}
+
+.error-message{
+    color: red;
+    visibility: hidden;
+}
+
+
+button{
+    background-color: #FBFBFE;
+    padding: 6x;
+    border-radius: 6px;
+    color: #15141A;
+    border: none;
+}
+
+button:hover{
+    background-color: #b0b0c9;
+}
+
+table{
+    width: 100%;
+    color: #15141A;
+}
+
+table,th,td{
+    border: 0.1px solid #15141A;
+    padding: 2px;
+}
+
+.icon{
+    background: url('C:\xampp\htdocs\abakode\icons\dark-theme-icon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: block; 
+}
+
+a.nav-link{
+    color: black;
+}
+
+.nav-item{
+    padding: 6px 10px;
+}
+
+.navbar{
+    background-color: #FBFBFE;
+}

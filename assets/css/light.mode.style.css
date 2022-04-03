@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+/* GENERAL STYLE */
+/* page style*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+html::-webkit-scrollbar{
+    width: 10px;
+    background: #FFFAFA;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #F5F5DC;
+}
+
+body{
+    background-color: grey;
+    color: black;
+    height: 100vh;
+    width: 100%;  
+}
+
+/* navbar style*/
+header {
+    background-color: #FFFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media screen and (max-width: 710px) {
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+header h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    cursor: pointer;
+}  
+
+li,a,button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: orange;
+}
+
+.btn-theme{
+    background-color: #FFFAFA;
+}
+
+.dropdown-item{
+    background-color: #F5F5DC;
+    color: black;
+}
+
+.dropdown-menu{
+    background-color: #F5F5DC;
+    transition: none;
+}
+
+button {
+    background-color: #F5F5DC;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: black;
+    border: none;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+
+div.page-layout{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*full page background image */
+div.bg-image{
+    background-image: url("images/prova3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+/* content page style */
+div.content-body{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.container-floating{
+    width: 500px;
+    height: 500px;
+    background-color: #FFFAFA;
+    padding: 40px;
+    border-radius: 80px;
+
+    
+    -webkit-box-shadow: 13px 20px 50px 5px rgba(0,0,0,0.5); 
+    box-shadow: 13px 20px 50px 5px rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width:480px) {
+    .container-floating{
+        width: 300px;
+    }
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+/* footer style */
+
+footer{
+    background-color: #FFFAFA;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.my-socials{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    list-style: none;
+    margin: 2px 2px;
+    padding: 0px;
+}
+
+.my-socials li{
+    margin: 0px 10px;
+}
+
+.my-socials a{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+}
+
+/* TABLE STYLE */
+table{
+    background-color: #FFFAFA;
+    width: 100%;
+  }
+  
+  
+  th,td{
+    color: black;
+    border: 0.2px solid;
+    padding: 2px 0px;
+  }
